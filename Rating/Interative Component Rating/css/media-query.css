@@ -1,0 +1,23 @@
+@media screen and (min-width: 300px) {
+
+    .card {
+        height: 318px;
+        width: 310px;
+        padding: 10px;
+    }
+
+    .circle-rounded {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        height: 318px;
+        width: 310px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    width: 90%;
+    background-color: var(--SubmitButton);
+    color: var(--White);
+    margin: 20px 0 0 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--SubmitButton);
+    background-color: var(--White);
+}
+

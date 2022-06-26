@@ -1,0 +1,12 @@
+:root {
+    /* General Colors */
+    --VeryDarkBlue: #121417;
+    --White: #ffffff;
+    --LightGrey: #959eac;
+    --MediumGrey: #7c8798;
+    --DarkBlue: #252d37;
+    --DarkBlueModified: #393d42;
+
+    /* Button Color*/
+    --SubmitButton: #fb7413;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+  </head>
+  <body class="flex-container">
+    
+    <div id="main-card" class="card">
+      <img class="img-star" src="./images/icon-star.svg" alt=""><br>
+      <span class="span-question"> How did we do?</span>
+      <p class="feedback-paragraph">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      
+      <!-- Card Rating Options -->
+        <ul class="flex-container rating-options">
+          <li class="flex-container circle-rounded">1</li>
+          <li class="flex-container circle-rounded">2</li>
+          <li class="flex-container circle-rounded">3</li>
+          <li class="flex-container circle-rounded">4</li>
+          <li class="flex-container circle-rounded">5</li>
+        </ul>
+
+        <!-- Card Footer -->
+      <footer class="flex-container">
+        <button id="submit" class="btn" type="submit">SUBMIT</button>
+      </footer>
+    </div>
+
+    <!-- Second Card -->
+    <div id="hidden-card" class="card flex-container hidden-card">
+      <img class=" img-thank-you" src="./images/illustration-thank-you.svg" alt=""><br>
+      <p id="rating" class="rating-paragraph"></p>
+      <span class="span-thank-you"> Thank you!</span>
+      <p class="thank-you-paragraph">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+      
+    </div>
+
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/diego-santos-djs/">Diego Santos</a>.
+  </div>
+  <script src="./javascript-view/actions.js"></script>
+  </body>
+</html>
